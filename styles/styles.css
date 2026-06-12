@@ -1,19 +1,14 @@
 body {
   background-color:rgb(255, 255, 255);
-  height: 100vh;
-}
-
-div {
-    width: 70vw;
-    background-color:rgb(255, 255, 255);
-    min-height: 100vh;
-    margin: auto;
-    padding-bottom: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  color:rgb(0, 0, 139);
-  text-align: center;
+  color:rgb(0, 0, 0);
+  text-align:justify;
+  margin-left: 10px;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -30,8 +25,6 @@ p, li {
   margin-right: 20px;
 }
 
-
-
 a {
   margin-left: 20px;
   margin-right: 20px;
@@ -41,8 +34,7 @@ a {
 
 img {
   width: 300px;
-  margin-left: 27vw;
-  border-radius: 20px;
+  border-radius: 20%;
 }
 
 footer {
@@ -50,4 +42,33 @@ footer {
   border-top: 2px solid rgb(0, 0, 0);
   text-align: center;
   padding-bottom: 15px;
+}
+
+#container-title {
+  width: 100%;
+  background-color:gold;
+  padding-top: 0.5px;
+}
+
+#container-target {
+    width: 70vw;
+    background-color:rgb(255, 255, 255);
+    min-height: 100vh;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#seccion-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+#container-img {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(128, 128, 128);
+  border: 2px solid rgb(0, 0, 0);
+  padding: 2px;
 }
